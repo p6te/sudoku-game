@@ -1,4 +1,21 @@
+@import "./vars.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
-    font-family: "Baloo 2", "Courier New", Courier, monospace;
-  }
-  
+  font-family: "Baloo 2", "Courier New", Courier, monospace;
+}
+
+.dark {
+  $bg-main: #2a2a38;
+  $bg-body: #1a1a2e;
+  $color-txt: #6a6a6a;
+  $filled-color: #4f4f63;
+  $filled-bg: #000;
+}
+
